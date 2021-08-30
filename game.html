@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/logo/favicon.ico" type="image/x-icon">  
+</head>
+<body>
+    <div class="main-container">
+        <div class="title">
+            <img id="logo" style="width:100px;height:100px;" src="/logo/logo.png">
+            <h2>Random Quote Generator</h2>
+        </div>
+        <div class="quote-container">
+            <p id="quote"></p>
+        </div>
+        <div class="person-container">
+            <p id="person"></p>
+        </div>
+    </div>
+    <div class="outer-container">
+        <!-- Select choice -->
+        <div class="person-container-answer">
+            <form>
+                <input type="radio" name="choice" id="person1" checked>
+                <label id="person10" for="person1"></label>
+                <input type="radio" name="choice" id="person2">
+                <label id="person20" for="person2"></label>
+            </form> 
+        </div>
+        <!-- Buttons -->
+        <button title="🏠 Go to Homepage." onclick="document.location='/index.html'" id="back-button">Back</button>
+        <button title="🔄 Refreshes the page." id="reset-button">Reset</button>
+        <button title="🏃‍♂️ Starts the game." id="start-game-button">Start</button>
+        <button title="📝 Submit your answer." id="submit-button">Submit</button>
+        <button title="📈 See Results." id="results-button">Results</button>
+        <p id="correct"></p>
+        <p id="false"></p>
+        <p id="question"></p>
+        <p id="totalQuotes"><b>You have answered <span id="display">0</span> Quotes so far.</b></p>
+        <p id=show-results>Results: Correct: <span id="correctResults"></span> - Wrong: <span id="wrongResults"></span></p>
+    </div>
+</body>
+<script src="game.js"></script>
+</html>
