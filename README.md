@@ -25,7 +25,7 @@
 ![Example screenshot 1](https://websource.gr/portfolio/rquote/scrot/scrot2.PNG)
 
 ## Project Status
-Project is: _completed_
+Project is: _completed_ ✔️
 
 ## Acknowledgements
 - This project was inspired by Codecademy Mixed Messages.
@@ -34,4 +34,4 @@ Project is: _completed_
 Created by [@madaskalas](https://github.com/madaskalas)
 
 ## License
-MIT License
+MIT License 📝
