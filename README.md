@@ -1,6 +1,6 @@
 # rquote
 > This is a web based app that generates random quotes and has a game with the goal of finding which person said the quote. 
-> Live demo [_here_](https://www.websource.gr/portfolio/rquote/index.html).
+> Live demo [_here_](https://www.websource.gr/rquote).
 
 ## Table of Contents
 * [General Information](#general-information)
@@ -31,7 +31,7 @@ Project is: _completed_ ✔️
 - This project was inspired by Codecademy Mixed Messages.
 
 ## Contact
-Created by [@madaskalas](https://github.com/madaskalas)
+Created by [@mariosdaskalas](https://github.com/mariosdaskalas)
 
 ## License
 MIT License 📝
