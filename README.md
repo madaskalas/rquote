@@ -1,6 +1,10 @@
 # rquote
 > This is a web based app that generates random quotes and has a game with the goal of finding which person said the quote. 
+<<<<<<< HEAD
 > Live demo [_here_](https://www.mariosdaskalas.gr/rquote).
+=======
+> Live demo [_here_](https://www.websource.gr/rquote).
+>>>>>>> 82a6182f13ad6ef72f2afed8ce45c11d61600065
 
 ## Table of Contents
 * [General Information](#general-information)
